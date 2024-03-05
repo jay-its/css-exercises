@@ -1,3 +1,6 @@
+/* TOP defines it as <div> */
+/* you dont need to define a class, you can just call the atrribute */
+
 .banner {
     text-align: center; 
     font-family: 'Times New Roman', Times, serif; 
