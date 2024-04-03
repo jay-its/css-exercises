@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  /* border: red solid 2px; */
 }
 
 img {
@@ -16,6 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
@@ -24,4 +27,58 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+/* Here are my adjustments
+.
+.
+.
+*/
+body {
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  flex-shrink: 0;
+  /* border: 1px solid orange; */
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black ;
+}
+
+.footer {
+  /* justify-self: flex-end; */
+  background-color: #eeeeee;
+  /* border: solid 1px black; */
+}
+
+.content {
+  align-self: center;
+  /* border: solid 2px green; */
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid gold; */
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  /* border: blue solid 1px; */
 }
