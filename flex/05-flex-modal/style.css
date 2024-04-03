@@ -67,3 +67,57 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.modal {
+  padding: 10px;
+  border: green 2px solid;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.header {
+  /* display: flex; */
+  font-weight: bold;
+  align-self: baseline;
+  font-size: large;
+  /* justify-content: flex-start; */
+  margin-left: -43px;
+  /* border: gold solid; */
+}
+
+.top-line {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: flex-start; */
+  /* align-content: flex-start; */
+  /* margin-top: 0px; */
+  /* flex-shrink: 1; */
+  gap: 8em;
+  /* border: 2px red solid; */
+}
+
+.icon {
+  /* border: 2px solid yellowgreen; */
+  
+}
+
+.close-button {
+align-self: baseline;
+/* border: solid 2px purple; */
+/* margin-left: ; */
+}
+
+.text, .header, .buttons {
+  padding-left: 50px;
+
+  /* border: solid 3px ; */
+}
+
+.buttons {
+  padding-top: 10px;
+}
+
+.text {
+  margin-top: -10px;
+}
